@@ -1,8 +1,8 @@
 <?php
 
-namespace ProgrammerZamanNow\Belajar\PHP\MVC\Controller;
+namespace SystemLibrary\PHP\Controller;
 
-use ProgrammerZamanNow\Belajar\PHP\MVC\App\View;
+use SystemLibrary\PHP\App\View;
 
 class HomeController
 {

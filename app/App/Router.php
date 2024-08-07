@@ -1,10 +1,9 @@
 <?php
 
-namespace ProgrammerZamanNow\Belajar\PHP\MVC\App;
+namespace SystemLibrary\PHP\App;
 
 class Router
 {
-
     private static array $routes = [];
 
     public static function add(string $method,

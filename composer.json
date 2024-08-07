@@ -1,13 +1,7 @@
 {
-    "name": "programmer-zaman-now/belajar-php-mvc",
-    "description": "Belajar PHP MVC",
+    "name": "system-library/php",
+    "description": "Application Library",
     "type": "project",
-    "authors": [
-        {
-            "name": "Eko Kurniawan Khannedy",
-            "email": "echo.khannedy@gmail.com"
-        }
-    ],
     "require": {
         "php" : ">=8"
     },
@@ -16,12 +10,12 @@
     },
     "autoload": {
         "psr-4": {
-            "ProgrammerZamanNow\\Belajar\\PHP\\MVC\\" : "app"
+            "SystemLibrary\\PHP\\" : "app"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "ProgrammerZamanNow\\Belajar\\PHP\\MVC\\" : "test"
+            "SystemLibrary\\PHP\\" : "test"
         }
     }
 }
